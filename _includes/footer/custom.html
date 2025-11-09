@@ -3,10 +3,8 @@
     © {{ site.time | date: '%Y' }} Dan Zhao. All rights reserved.
   </p>
 
-  {%- comment -%}
-    Keep your custom snippet (MathJax/Plotly/Mermaid/etc.)
-    Remove the next line if you don't want those extra scripts.
-  {%- endcomment -%}
+  {%- comment -%} Keep custom scripts (MathJax, Plotly, Mermaid) {%- endcomment -%}
+  {% if site.footer and site.footer.custom %}{% include footer/custom.html %}{% endif %}
   {% include footer/custom.html %}
 </footer>
 
