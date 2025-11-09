@@ -3,8 +3,7 @@
     © {{ site.time | date: '%Y' }} Dan Zhao. All rights reserved.
   </p>
 
-  {%- comment -%} Keep custom scripts (MathJax, Plotly, Mermaid) {%- endcomment -%}
-  {% if site.footer and site.footer.custom %}{% include footer/custom.html %}{% endif %}
+  {% comment %} Keep your custom scripts (MathJax/Plotly/Mermaid) {% endcomment %}
   {% include footer/custom.html %}
 </footer>
 
