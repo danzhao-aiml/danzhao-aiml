@@ -1,8 +1,11 @@
-<!-- start custom footer snippets -->
+<footer class="site-footer">
+  <p style="text-align:center;">
+    © {{ site.time | date: '%Y' }} Dan Zhao. All rights reserved.
+  </p>
 
-<p style="text-align:center;">
-  © {{ site.time | date: '%Y' }} Dan Zhao — All rights reserved.
-</p>
-
-
-<!-- end custom footer snippets -->
+  {%- comment -%}
+    Keep your custom snippet (MathJax/Plotly/Mermaid/etc.)
+    Remove the next line if you don't want those extra scripts.
+  {%- endcomment -%}
+  {% include footer/custom.html %}
+</footer>
