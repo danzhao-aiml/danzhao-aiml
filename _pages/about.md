@@ -1,4 +1,12 @@
-Hey, my name is Dan and I wear multiple hats.
+---
+permalink: /
+title: "Hey, my name is Dan"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+and I wear multiple hats. 
 
 On the one hand, I am an applied AI research scientist, focusing on several key areas, including but not limited to: efficient AI and learning, energy-efficient computing + supercomputing/HPC, AI agents, and AI for science. 
 
